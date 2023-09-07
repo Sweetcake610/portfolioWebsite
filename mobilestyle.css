@@ -1,0 +1,161 @@
+/******* MOBILE STYLING: Body and Main outer Div Section Styling *******/
+@media only screen and (max-width:768px) {
+    body {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    #navSideBarDiv {
+        display: none;
+    }
+    #navMobileDiv {
+        display: block;
+        width: 100%;
+    }
+    #contentDiv {
+        width: 100%;
+    }
+/***********Header, with name and job title, Styling*************/
+	#mainHeader {
+		width: 100%;
+        margin-top: 40px;
+	}
+    #name, #jobTitle {
+		font-size: 1.4rem;
+	}
+/***********Navigation Side Bar Styling***************/
+    #squareDesign {
+        width: 105%;
+        height: 60px;
+        display: inline-flex;
+        margin: -10px 0px 20px -15px;
+        justify-content: center;
+        align-items: center;
+    }
+    #bigCircle {
+        width: 70px;
+        height: 70px;
+        margin: 0px 5px 5px 5px;
+    }
+    #graphic-photo {
+        height: 70px;
+        margin: 0px auto;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+        margin: 0px 5px 5px 5px;
+    }
+    .navButton {
+        font-size: 0.5rem;
+        padding: 10px 5px;
+    }
+/**************Styling for contentDiv outer container and inner text Section****************/
+    .contentInfo {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+    .contentInfo h2 {
+        font-size: 1.6rem;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .infoDiv h3 {
+        font-size: 1.3rem;
+    }
+    .infoDiv h4 {
+        font-size: 1.0rem;
+        font-style: italic;
+        margin: 10px auto 10px;
+    }
+    .infoDiv p {
+        font-size: 0.7rem;
+        margin: 10px 0;
+    }
+    .skills {
+        font-size: 0.8rem;
+    }
+/******Specific elements that need additional styling in Main Content section*****/
+    #contact {
+        width: 90%;
+    }
+    #contact h4 {
+        font-size: 1.1rem;
+        padding: 5px;
+    }
+    ul .contact-list {
+        font-size: 0.9rem;
+    }
+/*****************Styling Project Section**************/
+    .projectInfo {
+        width: 80%;
+    }
+    .projectInfo h4{
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 10px auto 10px;
+    }
+    
+    .projectInfo p {
+        font-size: 0.6rem;
+        margin: 10px 0;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    #mainHeader {
+		width: 100%;
+        margin-top: 40px;
+	}
+    #contentDiv {
+        width: 70%;
+        height: auto;
+        margin-left: 80px;
+    }
+    .contentInfo h2 {
+        font-size: 1.6rem;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .infoDiv h3 {
+        font-size: 1.3rem;
+    }
+    .infoDiv h4 {
+        font-size: 1.1rem;
+        font-style: italic;
+        margin: 10px auto 10px;
+    }
+    .infoDiv p {
+        font-size: 1.0rem;
+        margin: 10px 0;
+    }
+    .skills {
+        font-size: 1.0rem;
+    }
+/******Specific elements that need additional styling in Main Content section*****/
+    #contact {
+        width: 90%;
+    }
+    #contact h4 {
+        font-size: 1.1rem;
+        padding: 5px;
+    }
+    ul .contact-list {
+        font-size: 0.9rem;
+    }
+    /*****************Styling Project Section**************/
+    .projectInfo {
+        width: 80%;
+    }
+    .projectInfo h4{
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 10px auto 10px;
+    }
+    .projectInfo p {
+        font-size: 0.6rem;
+        margin: 10px 0;
+        overflow-wrap: break-word;
+    }
+}
